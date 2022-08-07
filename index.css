@@ -1,0 +1,53 @@
+/* header style */
+
+.container-header {
+    background: url("./assets/images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   }
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    padding: 2rem;
+}
+
+.navbar-items {
+    padding-right: 2rem;
+}
+
+.navbar-items a {
+    padding-right: 3rem;
+    text-decoration: none;
+    font-size: 18px;
+    color:  hsl(0, 0%, 100%);
+}
+
+.navbar-items-contact {
+    color: black !important;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.banner-title{
+    text-align: center;
+    font-size: 48px;
+    color:  hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    padding: 3.5rem 0;
+}
+
+.banner-arrow{
+    text-align: center;
+}
