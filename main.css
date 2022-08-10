@@ -1,4 +1,4 @@
-.card{
+.card {
     display: flex;
 }
 
@@ -49,11 +49,11 @@
     height: 100vh;
 }
 
-.card-side{
+.card-side {
     display: flex;
 }
 
-.card-side-one{
+.card-side-one {
     background-image: url("./assets/images/desktop/image-photography.jpg");
     background-size: cover;
     background-position: center;
@@ -62,10 +62,31 @@
 }
 
 
-.card-side-two{
+.card-side-two {
     background-image: url("./assets/images/desktop/image-graphic-design.jpg");
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 100vh;
+}
+
+.card-side-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 50%;
+    padding: 10rem;
+}
+
+
+.card-side-box h2{
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.card-side-box p{
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 1rem;
 }
