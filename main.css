@@ -80,13 +80,64 @@
 }
 
 
-.card-side-box h2{
-   font-size: 32px;
-   font-weight: bold;
+.card-side-box h2 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
-.card-side-box p{
+.card-side-box p {
     letter-spacing: 1px;
     text-align: center;
     padding-top: 1rem;
+}
+
+.testmonials {
+    display: flex;
+}
+
+.testmonials-title {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: grey;
+}
+
+.card-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-clients h5 {
+    padding: 0.3rem;
+}
+
+.card-clients-img {
+    border-radius: 100%;
+    padding: 2rem;
+}
+
+.card-clients-text {
+    padding: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.client-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-images {
+    display: flex;
+    padding-top: 7rem;
+}
+
+.section-images-img {
+    width: 25%;
 }
