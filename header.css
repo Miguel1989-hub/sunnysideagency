@@ -51,3 +51,25 @@
 .banner-arrow{
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .container-header {
+        background: url("./assets/images/mobile/image-header.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+       }
+    
+    .navbar {
+        align-items: center;
+        display: flex;
+        justify-content: center
+    }
+    
+ 
+    .navbar-items {
+        padding-right: 2rem;
+        display: none;
+    }
+    
+}
